@@ -1,0 +1,49 @@
+* {
+    /* border: 1px solid black; */
+    margin: 0px;
+    padding: 0px;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 2vh;
+}
+
+.h3 {
+    text-align: center;
+    margin: 5vh;
+}
+
+.label {
+    text-align: left;
+}
+
+.input {
+    align-items: right;
+}
+
+.both {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.submit {
+    margin-left: 40%;
+    margin-top: 0%;
+}
+
+.submit:hover {
+    transform: scale(1.3);
+}
+
+#mail {
+    padding-left: 17px;
+}
+
+p {
+    color: green;
+}
