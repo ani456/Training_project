@@ -5,15 +5,48 @@
     <title>
         Home Page
     </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+        }
+        
+        li {
+            padding: 2vw;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            background-color: blue;
+            text-decoration: underline;
+            color: white;
+        }
+    </style>
 
 </head>
 
 <body>
     <nav>
         <ul>
-            <li>HOME</li>
-            <li>MENU</li>
-            <li> contact us</li>
+            <a href="">
+                <li>HOME</li>
+            </a>
+            <a href="blog.html">
+                <li>Blog</li>
+            </a>
+            <a href="form.html">
+                <li> User Details</li>
+            </a>
+
             <a href="gallery.html">
                 <li>Gallery</li>
             </a>

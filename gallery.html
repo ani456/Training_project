@@ -4,110 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="fir.css" type="text/css"> -->
-    <title>Blog</title>
+    <title>Gallery</title>
 
     <style>
         * {
-            margin: 0px;
-            padding: 0px;
+            margin: 0;
+            padding: 0;
         }
         
-        section {
-            display: flex;
-            flex-direction: column;
-            /* display: grid;
-            grid-template-columns: auto; */
+        #grid {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-left: 10px;
+            padding: 50px;
         }
         
-        .ph {
-            display: flex;
-        }
-        
-        .ph img {
-            border: 2px solid black;
-            width: 500px;
-            padding: 20px;
-            height: 300px;
-        }
-        
-        @keyframes leri {
-            0% {
-                color: blue;
-            }
-            50% {
-                color: purple;
-            }
-            100% {
-                color: blue;
-            }
-        }
-        
-        .ph h3 {
-            padding: 10%;
-            color: blue;
-            animation-name: leri;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
+        .image {
+            width: 300px;
+            height: 200px;
+            border: 5px solid greenyellow;
+            margin: 20px;
         }
     </style>
 
 </head>
 
-
 <body>
-
-    <section>
-        <div class="ph"> <img src="icons\bed.jpg" alt="bedroom">
-            <h3>
-                This is a bedroom.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\building.1.jpg" alt="Hotel">
-            <h3>
-                This is a hotel.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\first.jpg" alt="Celebration">
-            <h3>
-                This is a Celebration.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\nine.jpg" alt="Checkin and checkout">
-            <h3>
-                Here is checkin and checkout.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\sixth.jpg" alt="pool">
-            <h3>
-                Hey guys its Reception.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\fourth.jpg" alt="pool">
-            <h3>
-                This is the Reception.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\fifith.jpg" alt="pool">
-            <h3>
-                I think there is a men's tiolet nearby.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\tenth.jpg" alt="pool">
-            <h3>
-                We have all the facilities.
-            </h3>
-        </div>
-        <div class="ph"><img src="icons\twelve.jpg" alt="pool">
-            <h3>
-                This is our super delux room.
-            </h3>
-        </div>
-
-
-
-
-    </section>
+    <div id="grid">
+        <img class="image" src="icons/bed.jpg" alt="">
+        <img class="image" src="icons/eight.jpg" alt="">
+        <img class="image" src="icons/eleven.jpg" alt="">
+        <img class="image" src="icons/first.jpg" alt="">
+        <img class="image" src="icons/nine.jpg" alt="">
+        <img class="image" src="icons/building.1.jpg" alt="">
+        <img class="image" src="icons/second.jpg" alt="">
+        <img class="image" src="icons/seventh.jpg" alt="">
+        <img class="image" src="icons/tenth.jpg" alt="">
+        <img class="image" src="icons/twelve.jpg" alt="">
+        <img class="image" src="icons/tenth.jpg" alt="">
+        <img class="image" src="icons/fifith.jpg" alt="">
+    </div>
 </body>
 
 </html>
