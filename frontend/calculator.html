@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <script>
+        function myfunction() {
+            let value1 = +document.getElementById("one").value; //parseFloat can be used in place of "+" too
+            let value2 = +document.getElementById("two").value;
+
+            let value = value1 + value2;
+            document.getElementById("sum").innerHTML = "sum = " + value;
+        }
+    </script>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <input type="number" id="one">
+            <br>
+            <input type="number" id="two">
+            <br>
+            <button type="button" onclick="myfunction()">SUM</button>
+            <p id="sum"> </p>
+        </div>
+
+    </form>
+</body>
+
+</html>

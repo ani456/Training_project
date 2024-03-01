@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+        Home Page </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        ul {
+            display: flex;
+            flex-direction: column;
+            list-style-type: none;
+            width: 10vw;
+        }
+        
+        li {
+            display: none;
+            padding: 2vw;
+            height: 1vh;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            background-color: green;
+            text-decoration: underline;
+            text-decoration-color: blue;
+            color: white;
+        }
+        
+        #dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        #dropdown:hover li {
+            display: block;
+        }
+        
+        button {
+            width: 10vw;
+        }
+        
+        button:hover {
+            transform: scale(1.2);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav id="dropdown">
+        <button>Menu</button>
+        <ul>
+            <a href="">
+                <li>HOME</li>
+            </a>
+            <a href="blog.html">
+                <li>Blog</li>
+            </a>
+            <a href="form.html">
+                <li> User Details</li>
+            </a>
+
+            <a href="gallery.html">
+                <li>Gallery</li>
+            </a>
+        </ul>
+    </nav>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+{
+    "users": [{
+            "Name": "Aniket",
+            "Age": 22,
+            "Department": "IT",
+            "Rollno": 21
+        },
+        {
+            "Name": "Akshat",
+            "Age": 21,
+            "Department": "IT",
+            "Rollno": 22
+        },
+        {
+            "Name": "Ayush",
+            "Age": 21,
+            "Department": "IT",
+            "Rollno": 23
+        },
+        {
+            "Name": "Anshika",
+            "Age": 20,
+            "Department": "IT",
+            "Rollno": 24
+        },
+        {
+            "Name": "Shiwani",
+            "Age": 22,
+            "Department": "IT",
+            "Rollno": 25
+        }
+    ]
+}
